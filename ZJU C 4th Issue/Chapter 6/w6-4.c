@@ -17,7 +17,7 @@ int main()
 /* 你的代码将被嵌在这里 */
 int fib(int n)
 {
-    int a = 1, b = 1, temp, i;
+    int a = 0, b = 1, temp, i;
     for (i = 1; i <= n; i++)
     {
         temp = b;
@@ -36,7 +36,7 @@ void PrintFN(int m, int n)
         {
             if (fib(j) == i)
             {
-                printf("%d ", j);
+                printf("%d ", i);
                 count++;
                 break;
             }
