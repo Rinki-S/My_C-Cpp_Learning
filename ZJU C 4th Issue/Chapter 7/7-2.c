@@ -2,21 +2,21 @@
 
 int main(void)
 {
-    int n, min, i;
+    int n, max, i;
     scanf("%d\n", &n);
     int a[n];
     scanf("%d", &a[0]);
-    min = a[0];
+    max = a[0];
     for (i = 1; i < n; i++)
     {
         scanf("%d", &a[i]);
-        if (a[i] <= min)
-            min = a[i];
+        if (a[i] >= max)
+            max = a[i];
     }
-    printf("%d ", min);
+    printf("%d ", max);
     for (i = 0; i < n; i++)
     {
-        if (min == a[i])
+        if (max == a[i])
         {
             printf("%d", i);
             break;

@@ -42,9 +42,9 @@ int reverse(int number)
     {
         a = number % 10;
         if (a == 0)
-            reverse *= 10;
+            reverse *= 1;
         else
-            reverse += power(10,i) * a;
+            reverse += power(10, i) * a;
         number /= 10;
     }
     if (flag == 1)
