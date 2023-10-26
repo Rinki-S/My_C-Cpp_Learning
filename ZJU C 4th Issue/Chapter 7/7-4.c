@@ -50,22 +50,23 @@ int main(void)
         }
         count = 0;
     }
+    flag -= 1;
     digit = flag;
-    for (i = 0; i < flag - 1; i++)
+    for (i = 0; i < flag; i++)
     {
-        for (j = 0; j < i; j++)
+        for (j = i + 1; j <= flag; j++)
         {
             if (c[i] == c[j])
             {
-                for (k = i; k <= digit; k++)
+                for (k = j; k <= flag; k++)
                 {
                     c[k] = c[k + 1];
                 }
-                digit--;
+                flag--;
             }
         }
     }
-    for (i = 0; i < digit; i++)
+    for (i = 0; i <= flag; i++)
     {
         if (i != 0)
             printf(" ");
