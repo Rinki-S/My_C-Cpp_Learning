@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 #include <string.h>
 #define MAXN 100
 
@@ -25,10 +24,11 @@ long convert(char s[])
 
 int main(void)
 {
-    char a[MAXN], enter;
+    char enter;
+    char a[MAXN] ;
     int i = 0;
     int n = 0;
-    int positive = 0;
+    int positive;
 
     while ((enter = getchar()) != '\n')
     {

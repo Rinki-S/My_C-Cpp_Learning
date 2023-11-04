@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/w7-8.dir/ZJU_C_4th_Issue/Chapter_7/w7-8.c.o -c \"/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/ZJU C 4th Issue/Chapter 7/w7-8.c\"",
+  "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/ZJU C 4th Issue/Chapter 7/w7-8.c",
+  "output": "CMakeFiles/w7-8.dir/ZJU_C_4th_Issue/Chapter_7/w7-8.c.o"
+}
+]
