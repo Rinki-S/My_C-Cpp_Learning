@@ -1,3 +1,0 @@
-/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/CMakeFiles/w7-8.dir
-/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/CMakeFiles/edit_cache.dir
-/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/CMakeFiles/rebuild_cache.dir
