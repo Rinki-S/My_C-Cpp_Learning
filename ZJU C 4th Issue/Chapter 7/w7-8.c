@@ -25,7 +25,7 @@ long convert(char s[])
 int main(void)
 {
     char enter;
-    char a[MAXN] ;
+    char a[MAXN];
     int i = 0;
     int n = 0;
     int positive;
