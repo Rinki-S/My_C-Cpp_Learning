@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding
 
 # The main recursive "all" target.
 all: CMakeFiles/w7-8.dir/all
+all: CMakeFiles/w6-1.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/w7-8.dir/clean
+clean: CMakeFiles/w6-1.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,7 +83,7 @@ clean: CMakeFiles/w7-8.dir/clean
 CMakeFiles/w7-8.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/w7-8.dir/build.make CMakeFiles/w7-8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/w7-8.dir/build.make CMakeFiles/w7-8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/build/CMakeFiles --progress-num=1,2 "Built target w7-8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/build/CMakeFiles --progress-num=3,4 "Built target w7-8"
 .PHONY : CMakeFiles/w7-8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +101,32 @@ w7-8: CMakeFiles/w7-8.dir/rule
 CMakeFiles/w7-8.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/w7-8.dir/build.make CMakeFiles/w7-8.dir/clean
 .PHONY : CMakeFiles/w7-8.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/w6-1.dir
+
+# All Build rule for target.
+CMakeFiles/w6-1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/w6-1.dir/build.make CMakeFiles/w6-1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/w6-1.dir/build.make CMakeFiles/w6-1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/build/CMakeFiles --progress-num=1,2 "Built target w6-1"
+.PHONY : CMakeFiles/w6-1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/w6-1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/w6-1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/build/CMakeFiles 0
+.PHONY : CMakeFiles/w6-1.dir/rule
+
+# Convenience name for target.
+w6-1: CMakeFiles/w6-1.dir/rule
+.PHONY : w6-1
+
+# clean rule for target.
+CMakeFiles/w6-1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/w6-1.dir/build.make CMakeFiles/w6-1.dir/clean
+.PHONY : CMakeFiles/w6-1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

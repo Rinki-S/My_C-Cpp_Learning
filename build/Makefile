@@ -129,6 +129,43 @@ w7-8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/w7-8.dir/build.make CMakeFiles/w7-8.dir/build
 .PHONY : w7-8/fast
 
+#=============================================================================
+# Target rules for targets named w6-1
+
+# Build rule for target.
+w6-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 w6-1
+.PHONY : w6-1
+
+# fast build rule for target.
+w6-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/w6-1.dir/build.make CMakeFiles/w6-1.dir/build
+.PHONY : w6-1/fast
+
+ZJU_C_4th_Issue/Chapter_6/w6-1.o: ZJU_C_4th_Issue/Chapter_6/w6-1.c.o
+.PHONY : ZJU_C_4th_Issue/Chapter_6/w6-1.o
+
+# target to build an object file
+ZJU_C_4th_Issue/Chapter_6/w6-1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/w6-1.dir/build.make CMakeFiles/w6-1.dir/ZJU_C_4th_Issue/Chapter_6/w6-1.c.o
+.PHONY : ZJU_C_4th_Issue/Chapter_6/w6-1.c.o
+
+ZJU_C_4th_Issue/Chapter_6/w6-1.i: ZJU_C_4th_Issue/Chapter_6/w6-1.c.i
+.PHONY : ZJU_C_4th_Issue/Chapter_6/w6-1.i
+
+# target to preprocess a source file
+ZJU_C_4th_Issue/Chapter_6/w6-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/w6-1.dir/build.make CMakeFiles/w6-1.dir/ZJU_C_4th_Issue/Chapter_6/w6-1.c.i
+.PHONY : ZJU_C_4th_Issue/Chapter_6/w6-1.c.i
+
+ZJU_C_4th_Issue/Chapter_6/w6-1.s: ZJU_C_4th_Issue/Chapter_6/w6-1.c.s
+.PHONY : ZJU_C_4th_Issue/Chapter_6/w6-1.s
+
+# target to generate assembly for a file
+ZJU_C_4th_Issue/Chapter_6/w6-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/w6-1.dir/build.make CMakeFiles/w6-1.dir/ZJU_C_4th_Issue/Chapter_6/w6-1.c.s
+.PHONY : ZJU_C_4th_Issue/Chapter_6/w6-1.c.s
+
 ZJU_C_4th_Issue/Chapter_7/w7-8.o: ZJU_C_4th_Issue/Chapter_7/w7-8.c.o
 .PHONY : ZJU_C_4th_Issue/Chapter_7/w7-8.o
 
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... w6-1"
 	@echo "... w7-8"
+	@echo "... ZJU_C_4th_Issue/Chapter_6/w6-1.o"
+	@echo "... ZJU_C_4th_Issue/Chapter_6/w6-1.i"
+	@echo "... ZJU_C_4th_Issue/Chapter_6/w6-1.s"
 	@echo "... ZJU_C_4th_Issue/Chapter_7/w7-8.o"
 	@echo "... ZJU_C_4th_Issue/Chapter_7/w7-8.i"
 	@echo "... ZJU_C_4th_Issue/Chapter_7/w7-8.s"

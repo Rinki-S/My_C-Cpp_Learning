@@ -11,7 +11,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -26,7 +27,8 @@
 					"name" : "Project",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -34,8 +36,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "w6-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-w6-1-Debug-2718c47b5716baf20d46.json",
+					"name" : "w6-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "w7-8::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-w7-8-Debug-82739bc948a7f4f01041.json",
+					"jsonFile" : "target-w7-8-Debug-8c187c2a9388e7fdbe14.json",
 					"name" : "w7-8",
 					"projectIndex" : 0
 				}
@@ -45,12 +54,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/build",
+		"build" : "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/cmake-build-debug",
 		"source" : "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 5
 	}
 }
