@@ -1,18 +1,12 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int fibonacci(int n)
-{
-    if (n == 0 || n == 1)
-        return n;
-    else
-        return fibonacci(n - 1) + fibonacci(n - 2);
-}
 int main(void)
 {
-    for (int i = 1; i <= 5; i++)
-    {
-        cout << fibonacci(i) << " ";
-    }
+    set<int> s;
+    s.insert(1);
+    s.insert(2);
+    s.insert(3);
+    for (auto &ele : s) cout << ele << endl;
     return 0;
 }
