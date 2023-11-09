@@ -13,6 +13,11 @@ void ArrayShift(int a[], int n, int m)
 {
     int temp[m];
     int j = 0;
+    if (m > n)
+    {
+        m = m - n;
+    }
+
     for (int i = n - m; i < n; i++)
     {
         temp[j] = a[i];

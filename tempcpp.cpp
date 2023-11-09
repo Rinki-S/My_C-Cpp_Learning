@@ -3,10 +3,11 @@ using namespace std;
 
 int main(void)
 {
-    set<int> s;
-    s.insert(1);
-    s.insert(2);
-    s.insert(3);
-    for (auto &ele : s) cout << ele << endl;
+    string s1 = "123";
+    string s2 = "456";
+    if (s1 < s2)
+        cout << "s1 < s2" << endl;
+    else
+        cout << "s1 > s2" << endl;
     return 0;
 }
