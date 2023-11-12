@@ -19,5 +19,13 @@ int main()
 /* 你的代码将被嵌在这里 */
 void delchar(char *str, char c)
 {
-    
+    int i = 0, j;
+    for (j = 0; str[j]; j++)
+    {
+        if (c != str[j])
+        {
+            str[i++] = str[j];
+        }
+    }
+    str[i] = '\0';
 }
