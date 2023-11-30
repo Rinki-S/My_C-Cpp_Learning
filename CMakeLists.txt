@@ -1,3 +1,10 @@
 
 add_executable(6-8 PTA/Function/6-8.c)
 add_executable(temp PTA/Function/temp.c)
+add_executable(6-22 PTA/Function/6-22.c)
+add_executable(6-23 PTA/Function/6-23.c)
+add_executable(6-24 PTA/Function/6-24.c)
+add_executable(7-1 PTA/Function/7-1.c)
+add_executable(7-2 PTA/Function/7-2.c)
+add_executable(7-5 PTA/Function/7-5.cpp)
+add_executable(7-9 PTA/Function/7-9.c)
