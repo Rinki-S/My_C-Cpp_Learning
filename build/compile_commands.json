@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/6-8.dir/PTA/Function/6-8.c.o -c /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/6-8.c",
+  "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/6-8.c",
+  "output": "CMakeFiles/6-8.dir/PTA/Function/6-8.c.o"
+},
+{
+  "directory": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/temp.dir/PTA/Function/temp.c.o -c /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/temp.c",
+  "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/temp.c",
+  "output": "CMakeFiles/temp.dir/PTA/Function/temp.c.o"
+},
+{
+  "directory": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/6-22.dir/PTA/Function/6-22.c.o -c /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/6-22.c",
+  "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/6-22.c",
+  "output": "CMakeFiles/6-22.dir/PTA/Function/6-22.c.o"
+},
+{
+  "directory": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/6-23.dir/PTA/Function/6-23.c.o -c /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/6-23.c",
+  "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/6-23.c",
+  "output": "CMakeFiles/6-23.dir/PTA/Function/6-23.c.o"
+},
+{
+  "directory": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/6-24.dir/PTA/Function/6-24.c.o -c /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/6-24.c",
+  "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/6-24.c",
+  "output": "CMakeFiles/6-24.dir/PTA/Function/6-24.c.o"
+},
+{
+  "directory": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/7-1.dir/PTA/Function/7-1.c.o -c /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/7-1.c",
+  "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/7-1.c",
+  "output": "CMakeFiles/7-1.dir/PTA/Function/7-1.c.o"
+},
+{
+  "directory": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/7-2.dir/PTA/Function/7-2.c.o -c /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/7-2.c",
+  "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/7-2.c",
+  "output": "CMakeFiles/7-2.dir/PTA/Function/7-2.c.o"
+},
+{
+  "directory": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/7-5.dir/PTA/Function/7-5.cpp.o -c /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/7-5.cpp",
+  "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/7-5.cpp",
+  "output": "CMakeFiles/7-5.dir/PTA/Function/7-5.cpp.o"
+}
+]
