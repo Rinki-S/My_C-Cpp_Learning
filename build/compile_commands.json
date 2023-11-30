@@ -46,5 +46,11 @@
   "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/7-5.dir/PTA/Function/7-5.cpp.o -c /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/7-5.cpp",
   "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/7-5.cpp",
   "output": "CMakeFiles/7-5.dir/PTA/Function/7-5.cpp.o"
+},
+{
+  "directory": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/7-9.dir/PTA/Function/7-9.c.o -c /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/7-9.c",
+  "file": "/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/PTA/Function/7-9.c",
+  "output": "CMakeFiles/7-9.dir/PTA/Function/7-9.c.o"
 }
 ]

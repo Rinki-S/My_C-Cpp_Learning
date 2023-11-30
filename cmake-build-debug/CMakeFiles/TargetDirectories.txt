@@ -1,4 +1,11 @@
 /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/6-8.dir
 /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/temp.dir
+/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/6-22.dir
+/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/6-23.dir
+/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/6-24.dir
+/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/7-1.dir
+/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/7-2.dir
+/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/7-5.dir
+/Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/7-9.dir
 /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/rinki/Library/CloudStorage/OneDrive-whut.edu.cn/Coding/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

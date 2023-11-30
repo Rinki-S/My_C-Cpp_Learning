@@ -1,16 +1,59 @@
 #include "stdio.h"
-#include "stdlib.h"
 #include "string.h"
-#define NULL __DARWIN_NULL
+void split(char sentence[], char words[][50]);
+void output(char target_sentence[]);
 
-void split(char sentence[], char words[]) {
-    int words_index = 0;
-    char *token = strtok(sentence, " ");
-
-    while (token != NULL) {
-        words[words_index++] = token;
-        token = strtok(NULL, " ");
+int main(void) {
+    char target_sentence[80][80];
+    int time_count = 0;
+    while (fgets(target_sentence[time_count],
+                 sizeof(target_sentence[time_count]), stdin) != NULL)
+    {
+        target_sentence[time_count][strlen(target_sentence[time_count]) - 1] =
+            '\0';
+        time_count++;
     }
+    for (int i = 0; i < time_count; ++i) {
+        output(target_sentence[i]);
+        if (i != time_count - 1) {
+            printf("\n");
+        }
+    }
+    return 0;
 }
 
-int main(void) {}
+void split(char sentence[], char words[][50]) {
+    int words_index = 0;
+    char *token = strtok(sentence, " ,.'!?");
+
+    while (token != NULL) {
+        strcpy(words[words_index++], token);
+        token = strtok(NULL, " ,.'!?");
+    }
+
+    words[words_index][0] = '\0';
+}
+
+void output(char target_sentence[]) {
+    char words[80][50];
+    split(target_sentence, words);
+    int word_count = 0;
+    int word_length_max, word_length_max_index[80] = {0}, index = 0;
+    while (words[word_count][0] != '\0') {
+        word_count++;
+    }
+    word_length_max = strlen(words[0]);
+    for (int i = 0; i < word_count; i++) {
+        int current_word_length = strlen(words[i]);
+        if (current_word_length > word_length_max) {
+            word_length_max = current_word_length;
+            index = 0;  // reset index
+            word_length_max_index[index] = i;
+            index++;
+        } else if (current_word_length == word_length_max) {
+            word_length_max_index[index] = i;
+            index++;
+        }
+    }
+    printf("%s", words[word_length_max_index[0]]);
+}

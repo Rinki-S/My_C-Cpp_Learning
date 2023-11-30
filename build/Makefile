@@ -220,6 +220,19 @@ temp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7-5.dir/build.make CMakeFiles/7-5.dir/build
 .PHONY : 7-5/fast
 
+#=============================================================================
+# Target rules for targets named 7-9
+
+# Build rule for target.
+7-9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7-9
+.PHONY : 7-9
+
+# fast build rule for target.
+7-9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7-9.dir/build.make CMakeFiles/7-9.dir/build
+.PHONY : 7-9/fast
+
 PTA/Function/6-22.o: PTA/Function/6-22.c.o
 .PHONY : PTA/Function/6-22.o
 
@@ -388,6 +401,30 @@ PTA/Function/7-5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7-5.dir/build.make CMakeFiles/7-5.dir/PTA/Function/7-5.cpp.s
 .PHONY : PTA/Function/7-5.cpp.s
 
+PTA/Function/7-9.o: PTA/Function/7-9.c.o
+.PHONY : PTA/Function/7-9.o
+
+# target to build an object file
+PTA/Function/7-9.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7-9.dir/build.make CMakeFiles/7-9.dir/PTA/Function/7-9.c.o
+.PHONY : PTA/Function/7-9.c.o
+
+PTA/Function/7-9.i: PTA/Function/7-9.c.i
+.PHONY : PTA/Function/7-9.i
+
+# target to preprocess a source file
+PTA/Function/7-9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7-9.dir/build.make CMakeFiles/7-9.dir/PTA/Function/7-9.c.i
+.PHONY : PTA/Function/7-9.c.i
+
+PTA/Function/7-9.s: PTA/Function/7-9.c.s
+.PHONY : PTA/Function/7-9.s
+
+# target to generate assembly for a file
+PTA/Function/7-9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7-9.dir/build.make CMakeFiles/7-9.dir/PTA/Function/7-9.c.s
+.PHONY : PTA/Function/7-9.c.s
+
 PTA/Function/temp.o: PTA/Function/temp.c.o
 .PHONY : PTA/Function/temp.o
 
@@ -427,6 +464,7 @@ help:
 	@echo "... 7-1"
 	@echo "... 7-2"
 	@echo "... 7-5"
+	@echo "... 7-9"
 	@echo "... temp"
 	@echo "... PTA/Function/6-22.o"
 	@echo "... PTA/Function/6-22.i"
@@ -449,6 +487,9 @@ help:
 	@echo "... PTA/Function/7-5.o"
 	@echo "... PTA/Function/7-5.i"
 	@echo "... PTA/Function/7-5.s"
+	@echo "... PTA/Function/7-9.o"
+	@echo "... PTA/Function/7-9.i"
+	@echo "... PTA/Function/7-9.s"
 	@echo "... PTA/Function/temp.o"
 	@echo "... PTA/Function/temp.i"
 	@echo "... PTA/Function/temp.s"
