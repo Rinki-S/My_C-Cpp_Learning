@@ -3,5 +3,6 @@
     "iostream": "cpp",
     "ostream": "cpp"
   },
-  "editor.cursorStyle": "line"
+  "editor.cursorStyle": "line",
+  "C_Cpp.errorSquiggles": "disabled"
 }
