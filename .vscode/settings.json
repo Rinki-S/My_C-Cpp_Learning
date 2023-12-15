@@ -3,7 +3,9 @@
     "iostream": "cpp",
     "ostream": "cpp",
     "istream": "c",
-    "string": "c"
+    "string": "c",
+    "variant": "c",
+    "stdio.h": "c"
   },
   "editor.cursorStyle": "line",
   "C_Cpp.errorSquiggles": "disabled"

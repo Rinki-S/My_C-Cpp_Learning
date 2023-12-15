@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "7-5"
+			"path" : "temp"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 9,
+				"line" : 3,
 				"parent" : 0
 			}
 		]
@@ -35,17 +35,17 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+					"fragment" : "-g -arch arm64"
 				}
 			],
-			"language" : "CXX",
+			"language" : "C",
 			"sourceIndexes" : 
 			[
 				0
 			]
 		}
 	],
-	"id" : "7-5::@6890427a1f51a3e7e1df",
+	"id" : "temp::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -59,10 +59,10 @@
 				"role" : "flags"
 			}
 		],
-		"language" : "CXX"
+		"language" : "C"
 	},
-	"name" : "7-5",
-	"nameOnDisk" : "7-5",
+	"name" : "temp",
+	"nameOnDisk" : "temp",
 	"paths" : 
 	{
 		"build" : ".",
@@ -83,7 +83,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "PTA/Function/7-5.cpp",
+			"path" : "PTA/Function/temp.c",
 			"sourceGroupIndex" : 0
 		}
 	],
